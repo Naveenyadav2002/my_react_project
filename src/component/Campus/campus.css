@@ -1,0 +1,37 @@
+
+
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+    /* display: flex; */
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px ;
+}
+.gallery img{
+    width: 22%;
+    border-radius: 15px;
+}
+
+
+
+@media (max-width:800px){
+    .campus{
+        margin: 80px auto;
+    width: 90%;
+    }
+    .gallery{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        /* flex-basis: 100%; */
+        width: 48%;
+        margin-bottom: 25px;
+
+    }
+}
