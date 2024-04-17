@@ -40,7 +40,7 @@ function Testimonials() {
                                 <img src={nav_img} alt="" />
                                 <div>
                                     <h3>Naveen</h3>
-                                    <span>10KCoders, India</span>
+                                    <span>10KCoders, Hyderabad</span>
                                 </div>
                             </div>
                             <p>
@@ -58,7 +58,7 @@ function Testimonials() {
                                 <img src={user_2} alt="" />
                                 <div>
                                     <h3>Praveen</h3>
-                                    <span>10KCoders, India</span>
+                                    <span>10KCoders, SangaReddy</span>
                                 </div>
                             </div>
                             <p>
@@ -76,7 +76,7 @@ function Testimonials() {
                                 <img src={user_3} alt="" />
                                 <div>
                                     <h3>Priya</h3>
-                                    <span>10KCoders, USA</span>
+                                    <span>10KCoders, Nirmal</span>
                                 </div>
                             </div>
                             <p>
@@ -92,7 +92,7 @@ function Testimonials() {
                                 <img src={user_4} alt="" />
                                 <div>
                                     <h3>Kiran</h3>
-                                    <span>10KCoders, Africa</span>
+                                    <span>10KCoders, SangaReddy</span>
                                 </div>
                             </div>
                             <p>
