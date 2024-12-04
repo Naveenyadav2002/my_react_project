@@ -5,168 +5,116 @@
 
  /* Base styles */
  .h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .frontend-container {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .languages-box {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    margin-top: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .language-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .language-logo {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 .language-card h2 {
-    color: #007acc;
-    margin: 10px;
+  color: #007acc;
+  margin: 10px;
 }
 
 .language-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Responsive typography */
 @media (max-width: 768px) {
-    .h1 {
-        font-size: 1.75rem; /* Slightly smaller heading for small devices */
-    }
+  .h1 {
+      font-size: 1.75rem; /* Slightly smaller heading for small devices */
+  }
 
-    .p {
-        font-size: 0.875rem; /* Smaller paragraph text */
-    }
+  .p {
+      font-size: 0.875rem; /* Smaller paragraph text */
+  }
 }
 
 @media (max-width: 480px) {
-    .h1 {
-        font-size: 1.5rem; /* Further adjust heading size */
-    }
+  .h1 {
+      font-size: 1.5rem; /* Further adjust heading size */
+  }
 
-    .p {
-        font-size: 0.75rem; /* Further adjust paragraph text */
-    }
+  .p {
+      font-size: 0.75rem; /* Further adjust paragraph text */
+  }
 }
 
 /* Responsive layout */
 @media (min-width: 576px) {
-    .languages-box {
-        flex-direction: row; /* Row layout for tablets and above */
-        flex-wrap: wrap; /* Wrap cards to the next row */
-        justify-content: center; /* Center-align cards */
-    }
+  .languages-box {
+      flex-direction: row; /* Row layout for tablets and above */
+      flex-wrap: wrap; /* Wrap cards to the next row */
+      justify-content: center; /* Center-align cards */
+  }
 
-    .language-card {
-        flex: 1 1 calc(50% - 40px); /* Two cards per row */
-        /* max-width: 100%; */
-    }
+  .language-card {
+      flex: 1 1 calc(50% - 40px); /* Two cards per row */
+      /* max-width: 100%; */
+  }
 }
 
 @media (min-width: 768px) {
-    .language-card {
-        flex: 1 1 calc(33.33% - 40px); /* Three cards per row */
-        /* max-width: 100%; */
-    }
+  .language-card {
+      flex: 1 1 calc(33.33% - 40px); /* Three cards per row */
+      /* max-width: 100%; */
+  }
 }
 
 @media (min-width: 1024px) {
-    .language-card {
-        flex: 1 1 calc(25% - 40px); /* Four cards per row */
-        /* max-width: 100%; */
-    }
+  .language-card {
+      flex: 1 1 calc(25% - 40px); /* Four cards per row */
+      /* max-width: 100%; */
+  }
 }
 
 /* Fine-tune spacing for large screens */
 @media (min-width: 1200px) {
-    .languages-box {
-        gap: 30px; /* Add more spacing between cards */
-    }
+  .languages-box {
+      gap: 30px; /* Add more spacing between cards */
+  }
 
-    .language-card {
-        padding: 25px; /* Increase padding for larger screens */
-    }
+  .language-card {
+      padding: 25px; /* Increase padding for larger screens */
+  }
 }
 
 
 /* 
 .courses-container {
-    padding: 20px;
-  }
-  
-
-  .courses-title {
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  
-  .courses-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-
-  .course-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    padding: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .course-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-
-  .course-name {
-    font-size: 1.5rem;
-    color: #007BFF;
-    margin: 10px;
-  }
-  
-
-  .course-description {
-    font-size: 1rem;
-    margin: 0;
-  }
-
-  .course-logo{
-    max-width: 150px;
-  }
-   */
-
-
-   /* Base styles */
-.courses-container {
   padding: 20px;
 }
+
 
 .courses-title {
   color: #333;
@@ -174,19 +122,19 @@
   text-align: center;
 }
 
+
 .courses-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column; 
-  gap: 20px;
 }
+
 
 .course-item {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
+  margin-bottom: 15px;
   padding: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -196,91 +144,143 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
+
 .course-name {
   font-size: 1.5rem;
   color: #007BFF;
-  margin: 10px 0;
+  margin: 10px;
 }
+
 
 .course-description {
   font-size: 1rem;
   margin: 0;
 }
 
-.course-logo {
+.course-logo{
   max-width: 150px;
-  margin-bottom: 10px;
+}
+ */
+
+
+ /* Base styles */
+.courses-container {
+padding: 20px;
+}
+
+.courses-title {
+color: #333;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.courses-list {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column; 
+gap: 20px;
+}
+
+.course-item {
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 15px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-item:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-name {
+font-size: 1.5rem;
+color: #007BFF;
+margin: 10px 0;
+}
+
+.course-description {
+font-size: 1rem;
+margin: 0;
+}
+
+.course-logo {
+max-width: 150px;
+margin-bottom: 10px;
 }
 
 /* Responsive styles */
 /* Small devices (phones) */
 @media (max-width: 576px) {
-  .course-name {
-      font-size: 1.25rem;
-  }
+.course-name {
+    font-size: 1.25rem;
+}
 
-  .course-description {
-      font-size: 0.875rem;
-  }
+.course-description {
+    font-size: 0.875rem;
+}
 
-  .course-item {
-      padding: 10px;
-  }
+.course-item {
+    padding: 10px;
+}
 
-  .course-logo {
-      max-width: 120px;
-  }
+.course-logo {
+    max-width: 120px;
+}
 }
 
 /* Medium devices (tablets) */
 @media (min-width: 576px) and (max-width: 768px) {
-  .courses-list {
-      flex-direction: column;
-      gap: 15px;
-  }
+.courses-list {
+    flex-direction: column;
+    gap: 15px;
+}
 
-  .course-item {
-      padding: 15px;
-  }
+.course-item {
+    padding: 15px;
+}
 
-  .course-name {
-      font-size: 1.35rem;
-  }
+.course-name {
+    font-size: 1.35rem;
+}
 }
 
 /* Large devices (desktops) */
 @media (min-width: 768px) {
-  .courses-list {
-      flex-direction: row;
-      flex-wrap: wrap; /* Allow items to wrap to the next row */
-      justify-content: center;
-      gap: 30px;
-  }
+.courses-list {
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center;
+    gap: 30px;
+}
 
-  .course-item {
-      flex: 1 1 calc(33.33% - 40px); /* Three items per row */
-      max-width: 300px;
-  }
+.course-item {
+    flex: 1 1 calc(33.33% - 40px); /* Three items per row */
+    max-width: 300px;
+}
 
-  .course-name {
-      font-size: 1.5rem;
-  }
+.course-name {
+    font-size: 1.5rem;
+}
 
-  .course-description {
-      font-size: 1rem;
-  }
+.course-description {
+    font-size: 1rem;
+}
 }
 
 /* Extra large devices (wide desktops) */
 @media (min-width: 1200px) {
-  .courses-list {
-      gap: 40px;
-      /* display: inline-block;
-      width: 700px; */
-  }
+.courses-list {
+    gap: 40px;
+    /* display: inline-block;
+    width: 700px; */
+}
 
-  .course-item {
-      padding: 20px;
-      flex: 1 1 calc(25% - 40px); /* Four items per row */
-  }
+.course-item {
+    padding: 20px;
+    flex: 1 1 calc(25% - 40px); /* Four items per row */
+}
 }
