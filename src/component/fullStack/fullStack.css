@@ -1,0 +1,129 @@
+
+
+
+
+   /* Base styles */
+   .fullstack-programs-container {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    max-width: 100%; /* Limit the width for better readability */
+}
+
+.fullstack-programs-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fullstack-programs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Default: stack items vertically */
+    gap: 20px;
+}
+
+.fullstack-program-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fullstack-program-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.fullstack-program-name {
+    font-size: 1.4rem;
+    color: #007BFF;
+    margin: 0 0 10px;
+}
+
+.fullstack-program-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Responsive styles */
+
+/* For small screens (phones, less than 576px) */
+@media (max-width: 576px) {
+    .fullstack-programs-title {
+        font-size: 1.75rem;
+    }
+
+    .fullstack-program-name {
+        font-size: 1.2rem;
+    }
+
+    .fullstack-program-description {
+        font-size: 0.9rem;
+    }
+
+    .fullstack-program-item {
+        padding: 10px;
+    }
+}
+
+/* For medium screens (tablets, 576px to 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .fullstack-programs-list {
+        flex-direction: column; /* Items remain stacked */
+        gap: 15px;
+        
+    }
+
+    .fullstack-programs-title {
+        font-size: 1.9rem;
+    }
+
+    .fullstack-program-name {
+        font-size: 1.3rem;
+    }
+}
+
+/* For large screens (desktops, 768px and up) */
+@media (min-width: 768px) {
+    .fullstack-programs-list {
+        flex-direction: column; /* Arrange items in rows */
+        flex-wrap: wrap; /* Allow items to wrap to the next row */
+        justify-content: space-between; /* Spread items evenly */
+        gap: 30px; /* Add more spacing between items */
+      
+    }
+
+    .fullstack-program-item {
+        flex: 1 1 calc(33.33% - 40px); /* Three items per row */
+        max-width: 100%; /* Limit width of items */
+    }
+
+    .fullstack-program-name {
+        font-size: 1.5rem;
+    }
+
+    .fullstack-program-description {
+        font-size: 1rem;
+    }
+}
+
+/* For extra-large screens (1200px and up) */
+@media (min-width: 1200px) {
+    .fullstack-programs-list {
+        gap: 40px; /* Increase spacing between items */
+    }
+
+    .fullstack-program-item {
+        flex: 1 1 calc(25% - 40px); /* Four items per row */
+        max-width: 100%;
+    }
+}

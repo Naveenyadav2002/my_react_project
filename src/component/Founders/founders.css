@@ -1,0 +1,100 @@
+/* .main {
+    display: flex;
+    gap: 50px; 
+    justify-content: center; 
+    padding: 20px;
+  }
+
+  .founders {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 40px; 
+    text-align: center; 
+    width: 400px; 
+  }
+  
+  .founders img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; 
+    background-color: brown;
+    padding: 10px;
+  }
+  
+  p{
+    padding: 10px;
+  }
+
+  .div-img {
+    justify-content: center;      
+    align-items: center;          
+     width: 60%;
+     margin: 0 auto;              
+  }
+
+  */
+
+
+/* Styles for .main */
+.main {
+    display: flex;
+    gap: 50px; /* Space between the cards */
+    justify-content: center; /* Centers the cards horizontally */
+    padding: 20px;
+  }
+  
+  .founders {
+    background-color: #f9f9f9; /* Light card background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 40px; /* Padding inside the card */
+    text-align: center; /* Center content */
+    width: 400px; 
+  }
+  
+  
+  .founders img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; 
+    background-color: brown;
+    padding: 10px;
+  }
+  
+  p {
+    padding: 10px;
+  }
+  
+  .div-img {
+    justify-content: center;      
+    align-items: center;          
+    width: 60%;
+    margin: 0 auto;              
+  }
+  
+  @media (max-width: 1024px) {
+    .main {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+  
+    .founders {
+        width: 300px;
+        padding: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .founders {
+        width: 90%;
+    }
+  }
+  

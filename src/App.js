@@ -11,6 +11,7 @@ import { Component, useState } from 'react';
 import Contact from './component/Contact/contact';
 import Footer from './component/Footer/footer';
 import VideoPlayer from './component/VideoPlayer/videoplayer';
+import Founders from './component/Founders/founders';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <About setPlayerState={setPlayerState}/>
     <Title subTitle='Gallery' title='Campus Photos'/>
     <Campus/>
+    <Founders/>
     <Title subTitle='testmonials' title='what students says'/>
     <Testimonials/>
     <Title subTitle='Contact Us' title='Get in touch'/>
