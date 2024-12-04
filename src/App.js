@@ -12,7 +12,8 @@ import Contact from './component/Contact/contact';
 import Footer from './component/Footer/footer';
 import VideoPlayer from './component/VideoPlayer/videoplayer';
 import Founders from './component/Founders/founders';
-import Courses from './component/courses/courses.js';
+import Courses from './component/courses/Courses';
+
 
 
 
