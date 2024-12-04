@@ -9,7 +9,7 @@ import Programs from './component/navbar/programs/programs';
 import FrontendLanguages from './component/frontEnd/frontEnd';
 import BackendCourses from './component/backEnd/backEnd';
 import VideoPlayer from './component/VideoPlayer/videoplayer';
-import FullstackPrograms from './component/Fullstack/fullstack';
+import FullstackPrograms from "./component/fullStacks/fullStack";
 
 
 
