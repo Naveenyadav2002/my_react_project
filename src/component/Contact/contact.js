@@ -11,24 +11,7 @@ import axios from 'axios';
 function Contact() {
 
   const [result, setResult] = useState("");
-  // const onSubmit = async function (event) {
-  //   event.preventDefault();
-  //   setResult("Sending....");
-  //   const formData = new FormData(event.target);
-  //   formData.append("access_key", "ca2e5e88-2670-4fb9-9c86-7737dea44051");
-  //   const response = await fetch("https://api.web3forms.com/submit", {
-  //     method: "POST",
-  //     body: formData
-  //   });
-  //   // const data = await response.json();
-  //   if (response.success) {
-  //     setResult("Email Sended Successfully");
-  //     event.target.reset();
-  //   } else {
-  //     console.log("Error", response.success);
-  //     setResult(response.message);
-  //   }
-  // };
+
   
 const onSubmit = async function (event) {
   event.preventDefault();
