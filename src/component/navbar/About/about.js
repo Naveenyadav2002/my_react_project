@@ -4,14 +4,23 @@ import React from 'react'
 import './about.css'
 import about_img from '../../../assets 1/about_img.jpg'
 import play_icon from '../../../assists/play-icon.png'
+import { useNavigate } from 'react-router-dom'
 
 
 function About({setPlayerState}) {
+
+const navigate=useNavigate()
+
+const handleNavigate=()=>{
+    navigate("/videoPlayer")
+}
+
+
     return (
         <div className='about'>
             <div className='about-left'>
                 <img src={about_img} alt='' className='about-img' />
-                <img src={play_icon} alt='' className='play-icon'  onClick={()=>{setPlayerState(true)}}/>
+                <img src={play_icon} alt='' className='play-icon'  onClick={handleNavigate}/>
             </div>
             <div className='about-right'>
                 <h3>ABOUT  INSTITUTION</h3>

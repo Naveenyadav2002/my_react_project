@@ -1,0 +1,154 @@
+/* .main-div{
+    max-height: 100%;
+    max-width: 80%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    margin-left: 10%;
+    box-shadow: 3px 3px;
+}
+
+.main-div p:hover{
+cursor: pointer;
+}
+
+.main-div p{
+display: inline-block;
+margin-left: 10px;
+margin-bottom: 30px;
+}
+
+.month1,.month3,.month5,.month7,.placement{
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.active1,.active2,.active3,.active4,.active5{
+cursor: pointer;
+border: 2px solid rgb(237, 160, 93);
+border-radius: 10px;
+padding: 15px 30px;
+color: rgb(223, 75, 59);
+}
+
+
+
+
+.ul{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+ */
+
+
+ /* Base Styles */
+ .main-div {
+    max-height: 100%;
+    max-width: 80%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    margin-left: 10%;
+    box-shadow: 3px 3px;
+}
+
+.main-div p:hover {
+    cursor: pointer;
+}
+
+.main-div p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.month1, .month3, .month5, .month7, .placement {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.active1, .active2, .active3, .active4, .active5 {
+    cursor: pointer;
+    border: 2px solid rgb(237, 160, 93);
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: rgb(223, 75, 59);
+}
+
+.ul {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .main-div {
+        max-width: 90%;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .main-div p {
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+
+    .month1, .month3, .month5, .month7, .placement {
+        font-size: 1rem;
+    }
+
+    .active1, .active2, .active3, .active4, .active5 {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .ul {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-div {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .main-div p {
+        display: block;
+        margin-left: 0;
+    }
+
+    .month1, .month3, .month5, .month7, .placement {
+        font-size: 0.9rem;
+    }
+
+    .active1, .active2, .active3, .active4, .active5 {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    .ul {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div {
+        padding: 10px;
+    }
+
+    .month1, .month3, .month5, .month7, .placement {
+        font-size: 0.8rem;
+    }
+
+    .active1, .active2, .active3, .active4, .active5 {
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .ul {
+        margin-left: 10px;
+    }
+}
+

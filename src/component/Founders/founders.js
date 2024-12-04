@@ -1,5 +1,6 @@
 import "./founders.css"
 // import img from "./image.png"
+import img from "../../assets 1/rk.png"
 
 function Founders(){
 
@@ -18,7 +19,7 @@ function Founders(){
 
             <div className="founders" style={{backgroundColor:"#FFF3E0"}}>
                    <div className="div-img">
-                   {/* <img src={img} style={{backgroundColor:"#FFCC80", }}/> */}
+                   <img src={img} style={{backgroundColor:"#FFCC80", }}/>
                    </div>
                    <h3>Rakesh Kumar</h3>
                    <p>Co-Founder</p>

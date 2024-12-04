@@ -12,6 +12,8 @@ import Contact from './component/Contact/contact';
 import Footer from './component/Footer/footer';
 import VideoPlayer from './component/VideoPlayer/videoplayer';
 import Founders from './component/Founders/founders';
+import Courses from './component/courses/courses.js';
+
 
 
 function App() {
@@ -27,15 +29,17 @@ function App() {
     <Programs/>
     
     <About setPlayerState={setPlayerState}/>
+   <Courses/>
     <Title subTitle='Gallery' title='Campus Photos'/>
     <Campus/>
+    <Title title='FACES BEHIND OUR GUIDING EXPERTISE'/>
     <Founders/>
     <Title subTitle='testmonials' title='what students says'/>
     <Testimonials/>
     <Title subTitle='Contact Us' title='Get in touch'/>
      <Contact/>
      <Footer/>
-     <VideoPlayer playerstate={playerstate} setPlayerState={setPlayerState}/>
+     {/* <VideoPlayer playerstate={playerstate} setPlayerState={setPlayerState}/> */}
     </div>
     
     </>

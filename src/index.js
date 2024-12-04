@@ -4,10 +4,29 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import Programs from './component/navbar/programs/programs';
+import FrontendLanguages from './component/frontEnd/frontEnd';
+import BackendCourses from './component/backEnd/backEnd';
+import FullstackPrograms from './component/fullStack/fullStack';
+import VideoPlayer from './component/VideoPlayer/videoplayer';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+            <Routes>
+               <Route  path="/" element={<App/>}/>
+                <Route path="/programs" element={<Programs/>}/>
+                <Route path="/frontEnd" element={<FrontendLanguages/>}/>
+                <Route path="/backEnd" element={<BackendCourses/>}/>
+                <Route path="/fullStack" element={<FullstackPrograms/>}/>
+                <Route path='/videoPlayer' element={<VideoPlayer/>}/>
+               
+            </Routes>
+        </Router>
+    {/* <App /> */}
   </React.StrictMode>
 );
 
